@@ -1,0 +1,5 @@
+s = input()
+a = s.split(" ")
+b = len(a)
+c = a.count("")
+print(b - c if c > 0 else b)
