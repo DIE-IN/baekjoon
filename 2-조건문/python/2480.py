@@ -1,6 +1,4 @@
-a, b, c = input().split(" ")
-a = int(a); b = int(b); c = int(c)
-
+a, b, c = map(int, input().split(" "))
 if a == b == c:
 	d = 10000 + a * 1000
 elif a == b or a == c:

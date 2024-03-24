@@ -1,5 +1,4 @@
-a, b = input().split(" ")
-a = int(a); b = int(b)
+a, b = map(int, input().split(" "))
 if b - 45 >= 0:
 	print(a,b-45)
 else:

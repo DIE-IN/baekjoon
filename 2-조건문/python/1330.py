@@ -1,3 +1,2 @@
-a, b = input().split(" ")
-a = int(a); b = int(b)
+a, b = map(int, input().split(" "))
 print("<" if a < b else (">" if a > b else "=="))

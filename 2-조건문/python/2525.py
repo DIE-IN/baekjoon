@@ -1,5 +1,5 @@
-a, b = input().split(" ")
-a = int(a); b = int(b); c = int(input())
+a, b = map(int, input().split(" "))
+c = int(input())
 d = b + c
 if d < 60:
 	print(a, d)
