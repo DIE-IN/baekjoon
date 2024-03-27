@@ -1,0 +1,5 @@
+a = input().split(" ")
+b = ''.join(a)
+c = ''.join(sorted(a))
+d = ''.join(reversed(sorted(a)))
+print("ascending" if b == c else ("descending" if b == d else "mixed"))
